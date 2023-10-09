@@ -1,0 +1,11 @@
+
+Para crear un servidor virtual
+	npm install http-server -D
+para Usarlo 
+	npm run start
+para detenerlo
+	ctrl + c
+
+Package.json 
+"start": "http-server dist"
+punto de entrada para uso de un servidor
