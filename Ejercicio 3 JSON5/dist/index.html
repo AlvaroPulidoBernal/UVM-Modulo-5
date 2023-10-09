@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administracion de activos (Assets)</title>
+</head>
+<body>
+
+    <!--
+        Comando para ejecutar Webpack
+        npx webpack 
+        Crea los archivos y el archivo de salida con sus dependencias en un solo archivo listo para abrirlo y correrlo
+
+
+        En el package.js para resolver el Warning:
+              WARNING in configuration
+              The 'mode' option has not been set, webpack will fallback to 'production' for this value.
+           "build": "webpack --mode=development"
+        y en la terminal correr el comando:
+           npm run build que hace referencia a lo que se agrego en el package.json directamente
+
+        Si se quiere que se tome una configuracion para la creacion se crea el archivo webpack.config.js se define la configuracion y se cambia
+        lo que se definio en el "build" por lo siguiente:
+           "build": "webpack --config webpack.config.js --mode=development"
+
+    -->
+    <script src="bundle.js"></script>
+    
+</body>
+</html>

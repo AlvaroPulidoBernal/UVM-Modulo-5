@@ -1,0 +1,12 @@
+# This is a YAML comment
+name: John Doe yaml
+age: 30
+isStudent: false
+hobbies:
+  - Reading
+  - Hiking
+  - Cooking
+address:
+  street: 123 Main St
+  city: Exampleville
+  zip: '12345'

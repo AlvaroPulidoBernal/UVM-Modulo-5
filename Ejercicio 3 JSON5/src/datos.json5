@@ -1,0 +1,17 @@
+{
+  // This is a JSON5 comment
+  name: 'John Doe json5',
+  age: 30,
+  isStudent: false,
+  hobbies: [
+    'Reading',
+    'Hiking',
+    'Cooking'
+  ],
+  address: {
+    street: '123 Main St',
+    city: 'Exampleville',
+    // Nested comment
+    zip: '12345'
+  }
+}
