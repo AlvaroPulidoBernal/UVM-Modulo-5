@@ -1,0 +1,101 @@
+/**
+ * @license
+ * Copyright 2013-2019; 2023 Intel Corporation
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/* ---------------------------------------------------------------- Using buttons as links buttons ---------------------------------------------------------------- */
+
+body {
+  font-family: "montserrat";
+  background-color: #272727;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+/* ---------------------------------------------------------------- Video control ---------------------------------------------------------------- */
+#test-video{
+  margin-top: -20px;
+}
+
+/* ---------------------------------------------------------------- Side navigation bar ---------------------------------------------------------------- */
+#Title-nav{
+font-size: 25px;
+text-align: center;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 100;
+  background-color: #3b2424;
+  overflow-x: hidden;
+  transition: 0.0s;
+  padding-top: 60px;
+  bottom: 500px;
+}
+.right {
+  float: right;
+  top: 0;
+}
+.sidenav button{
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+  color: #818181;
+  text-align: left;
+  background-color: #3b2424;
+  border: 0px solid #3b2424;
+  transition: 0.3s;/* Animation when hover from color to color*/
+}
+.sidenav button:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #818181;
+  background-color: #3b2424;
+  cursor: pointer;
+  border: 0px solid #3b2424;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+.menubtn{
+  font-size: 30px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #272727;
+  border: 0px solid #272727;
+}
+
+@media screen and (max-height: 650px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav button {font-size: 14px;}
+  #test-video {height: 400px;}
+  #Title-nav {font-size: 16px; text-align: left; padding-left: 15px;}
+}
+
+footer {
+  font-size: 15px;
+  text-align: center;
+  padding: 1px;
+  /* background-color: #cc8800; */
+  background-color: black;
+  color: white;
+  /* Stick the footer to the bottom of the viewport */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Make the object go at the back when there is overflow */
+  z-index: -1;
+}
+
+

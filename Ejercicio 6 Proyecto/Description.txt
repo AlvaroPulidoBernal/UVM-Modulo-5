@@ -1,0 +1,2 @@
+un simple codigo que permite agregar marcadores a un video y que se muestre en la barra de progreso del mismo que al momento de poner el cursor en el marcador mostrara la descipccion de lo que haga referencia en ese minuto del video
+Ademas tiene un icono de menu para acceder como boton a todos los marcadores que al presionar nor dirige a la posicion del video
